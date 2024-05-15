@@ -1,0 +1,124 @@
+body{
+    display:flex;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.ContainerEsquerda{
+    width: 50%;
+    height: 100vh;
+    top: 0;
+    position: sticky;
+}
+.Contador{
+    position: sticky;
+    height: 40vh;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.NovaTarefa{
+    height: 60vh;
+    position: sticky;
+}
+
+.ContainerDireita{
+    width: 50%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.ContadorTarefas{
+    width: 95%;
+    height: fit-content;
+    margin: 3px 5px;
+    padding: 15px 0px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 10px;
+}
+
+.CriarTarefa{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 95%;
+    padding: 15px 0;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.CriarTarefa h4{
+    margin: 10px 5vw;
+}
+
+.CriarTarefa h1{
+    margin: 10px auto;
+    text-align: center;
+    
+}
+
+.DigitarTextos{
+    margin: 0px auto 10px auto;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 5px 2vw;
+    width: 72%;
+    border: 2px solid rgb(156, 155, 155);
+}
+
+.Enviar{
+    margin: 10px auto 0 auto;
+    font-size: 20px;
+    padding: 5px;
+    width: 40%;
+    cursor: pointer;
+}
+
+.Tarefa{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 10px;
+    margin: 2vw 0;
+}
+
+.SelecionarStatus{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 2%;
+   width: 95%;
+   margin: 10px 0 10px 0;
+   padding: 0 5%;
+}
+
+.ApagarTarefa{
+    width: 100%;
+    background-color: white;
+    opacity: 45%;
+    border: none;
+    font-size: 20px;
+    outline: none;
+    cursor: pointer;
+    height: 30px;
+}
+.ApagarTarefa:hover{
+    background-color: black;
+    color: white;
+    border-radius: 0 0 10px 10px;
+    opacity: 80%;
+}
+
+.Tarefa h1, h4{
+    padding: 10px 0 0 2vw;
+}

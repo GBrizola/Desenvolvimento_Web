@@ -1,0 +1,63 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.quadrado{
+    height: 100vh;
+}
+
+.html{
+    border-radius: 10px;
+    border: 2px solid black;
+    display: flex;
+    text-align: center;
+    background-color: white;
+    color: black;
+    top: 5vh;
+    position: relative;
+    width: 70vh;
+    height: 20vh;
+    resize: none;
+}
+
+.css{
+    border-radius: 10px;
+    border: 2px solid black;
+    display: flex;
+    text-align: center;
+    background-color: white;
+    position: relative;
+    top: 20vh;
+    height: 20vh;
+    width: 70vh;
+    resize: none;
+}
+
+.js{
+    border-radius: 10px;
+    border: 2px solid black;
+    display: flex;
+    text-align: center;
+    background-color: white;
+    position: relative;
+    top: 35vh;
+    height: 20vh;
+    width: 70vh; 
+    resize: none;
+}
+
+.resultado{
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    margin-top: 17vh;
+    position: relative;
+    left: 45vw;
+    bottom: 76vh;
+    height: 93vh;
+    width: 50vw; 
+}
